@@ -244,6 +244,28 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+/* styles for correcting titles	*/
+#gallery .title {
+	font-size: calc(1.3rem + .6vw); 
+}
+.quote__text {
+    font-size: calc(1.375rem + 1.5vw);
+}
+.about-me__introduction {
+	font-size: 1rem;
+}
+@media (min-width: 1200px) {
+	.quote__text {
+        font-size: 2.5rem;
+	}
+}
+@media all and (max-width: 1180px) {
+	#about-me .about-me__introduction { 
+		width: 100%;
+	}
+}
+/* end styles for correcting titles*/
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -255,7 +277,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me h6, #about-me p { 
 		width: 100%;
 	}
 }
